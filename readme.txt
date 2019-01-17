@@ -1,21 +1,6 @@
 
              High-Speed Tracking with Kernelized Correlation Filters
 
-             J. F. Henriques   R. Caseiro   P. Martins   J. Batista
-                                   TPAMI 2014
-
-________________
-To be published.
-arXiv pre-print: http://arxiv.org/abs/1404.7584
-Project webpage: http://www.isr.uc.pt/~henriques/circulant/
-
-This MATLAB code implements a simple tracking pipeline based on the Kernelized
-Correlation Filter (KCF), and Dual Correlation Filter (DCF).
-
-It is free for research use. If you find it useful, please acknowledge the paper
-above with a reference.
-
-
 __________
 Quickstart
 
@@ -67,44 +52,5 @@ DCF, MOSSE) by calling it with different commands:
  >> run_tracker choose linear gray   %MOSSE filter (single channel)
 
 
-For the actual tracking code, check out the 'tracker' function.
 
-
-Though it's not required, the code will make use of the MATLAB Parallel Computing
-Toolbox automatically if available.
-
-
-__________
-References
-
-[1] J. F. Henriques, R. Caseiro, P. Martins, J. Batista, "High-Speed Tracking with
-Kernelized Correlation Filters", TPAMI 2014 (to be published).
-
-[2] J. F. Henriques, R. Caseiro, P. Martins, J. Batista, "Exploiting the Circulant
-Structure of Tracking-by-detection with Kernels", ECCV 2012.
-
-[3] Y. Wu, J. Lim, M.-H. Yang, "Online Object Tracking: A Benchmark", CVPR 2013.
-Website: http://visual-tracking.net/
-
-[4] P. Dollar, "Piotr's Image and Video Matlab Toolbox (PMT)".
-Website: http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html
-
-[5] P. Dollar, S. Belongie, P. Perona, "The Fastest Pedestrian Detector in the
-West", BMVC 2010.
-
-
-_____________________________________
-Copyright (c) 2014, Joao F. Henriques
-
-Permission to use, copy, modify, and distribute this software for research
-purposes with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
